@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# MacOS DD Disk Imaging Tool
+# dd-tool
 # Creates raw .img copies of external drives or writes images to external drives
 # Requires administrator privileges
 
@@ -618,7 +618,7 @@ write_image() {
 
 # Main menu function
 main_menu() {
-    print_header "MacOS DD Disk Imaging Tool"
+    print_header "dd-tool"
     
     echo "Please select an operation:"
     echo "1) Create a disk image from an external drive"
@@ -649,7 +649,7 @@ main_menu() {
 
 # Main execution
 clear
-echo "MacOS DD Disk Imaging Tool"
+echo "dd-tool"
 echo "=========================="
 echo
 
