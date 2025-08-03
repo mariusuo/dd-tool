@@ -13,3 +13,7 @@
 chmod +x dd-tool.sh
 sudo ./dd-tool.sh
 ```
+
+## Screenshots
+<img width="430" height="338" alt="image" src="https://github.com/user-attachments/assets/5810f56e-b9fb-4ab3-972b-e55c9f4b5b85" />
+
