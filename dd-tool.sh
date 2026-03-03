@@ -732,6 +732,8 @@ main_menu() {
         echo "  2)  Write an image file  (file → disk)"
         echo "  3)  Exit"
         echo
+        # Drain any newlines left in stdin by previous read -n 1 -r prompts
+        while IFS= read -r -s -n 1 -t 0.05 _ 2>/dev/null; do :; done
         read -p "  Choice (1–3): " -n 1 -r; echo
 
         case "$REPLY" in
